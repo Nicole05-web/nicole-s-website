@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+ }
+ 
+ h1{
+   font-style: italic;
+   font-weight: bold;
+   color: black;
+   text-decoration: underline;
+ } 
+ 
+ 
+ 
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color:plum;
+ }
+ 
+ li {
+   float: right;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+li a:hover {
+   background-color:purple;
+ }
+
+ .active, .dot:hover {
+    background-color: #717171;
+  }
+
+
+.requirements ul{
+    display: list-item;
+    margin: 0;
+    padding:0;
+    background-color: none;
+   
+}
+.requirements ul li{
+   display: list-item;
+   padding-right: 12px;
+
+    
+    
+}
+
+.button{
+    background-color: green;
+    color:lavender;
+    padding:5px;
+}
